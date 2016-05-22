@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Smart File Share</title>
+	<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.css">
+	<link rel="stylesheet" 	href="//jello-framework.com/apis/v-1.2.5/assets/plugin/raty/lib/jquery.raty.css">
+	<link rel="stylesheet" 	href="/css/smartShopping.css">
+</head>
+<body>
+	<!-- Top bar -->
+	<div class="top-bar">
+		<div class="top-bar-left">
+			<ul class="menu" id= "top-bar">
+			</ul>
+		</div>
+		<div class="top-bar-right">
+			<ul class="menu">
+				<li><sapn style="line-height: 2;color:#eee" id="user-info"></sapn></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="orbit" role="region" aria-label="Favorite Space Pictures"data-orbit>
+		<ul class="orbit-container">
+			<li class="orbit-slide is-active"><img src="/assets/892-h_main-w.png";id="front-page"></li>
+		</ul>
+	</div>
+	<div class="row column text-center">
+		<hr>
+		
+		<h2>Newest Posts</h2>
+		
+		<hr>
+	</div>
+	
+	<!--  Products container -->
+	<div class="row small-up-2 medium-up-3 large-up-6" id="posts">
+		<a href = "/jello/view/app/Post">Posts</p>
+	</div>
+
+	<hr>
+
+	<!--  Footer -->
+	<div class="callout large secondary">
+		<div class="row">
+			<div class="large-4 columns">
+				<h5>We are so cool!</h5>
+				<p>The best file sharing site
+					</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="//jello-framework.com/apis/v-1.2.5/assets/plugin/raty/lib/jquery.raty.js"></script>
+	<script src="/js/smartshop.js"></script>
+	<script>
+	  loadButtons("top-bar")
+	  loadPosts("posts")
+      initUserInfo("user-info");
+	  createUserIfNeeded();
+      
+      $.fn.raty.defaults.path = '//jello-framework.com/apis/v-1.2.5/assets/plugin/raty/demo/images';
+    </script>
+</body>
+</html>

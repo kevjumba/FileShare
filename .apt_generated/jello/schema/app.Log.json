@@ -1,0 +1,37 @@
+{
+	"name" : "app.Log",
+	"fields" : [
+		{
+			"name" : "latitude",
+			"type" : "java.lang.Double",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "longitude",
+			"type" : "java.lang.Double",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "postId",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "postUserId",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "user",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}

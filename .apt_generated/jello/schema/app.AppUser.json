@@ -1,0 +1,35 @@
+{
+	"name" : "app.AppUser",
+	"fields" : [
+		{
+			"name" : "id",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "logs",
+			"type" : "java.util.List<app.Log>",
+			"isPublic" : false,
+			"isStatic" : false
+		},
+		{
+			"name" : "profile",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+		{
+			"name" : "createUser",
+			"isPublic" : true,
+			"isStatic" : true,
+			"isAsync" : null,
+			"accessible" : [],
+			"params" : [
+			],
+			"returnType" : "void"
+		}
+	]
+}

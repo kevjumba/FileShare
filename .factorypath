@@ -1,0 +1,4 @@
+<factorypath>
+    <factorypathentry kind="EXTJAR" id="/opt/eclipse/../../home/kevin/.eclipse/org.eclipse.platform_4.4.1_1473617060_linux_gtk_x86_64/plugins/com.jello.framework.plugin_1.2.6/resources/lib/jello-1.2.6.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
+</factorypath>

@@ -1,0 +1,25 @@
+{
+	"name" : "app.Post",
+	"fields" : [
+		{
+			"name" : "file",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "logs",
+			"type" : "java.util.List<app.Log>",
+			"isPublic" : false,
+			"isStatic" : false
+		},
+		{
+			"name" : "title",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}

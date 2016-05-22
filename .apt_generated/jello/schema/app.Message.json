@@ -1,0 +1,25 @@
+{
+	"name" : "app.Message",
+	"fields" : [
+		{
+			"name" : "message",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "receiver",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "sender",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}
